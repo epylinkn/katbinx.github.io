@@ -17,7 +17,7 @@ body{
 }
 
 a, u {
-    color: #fff;
+	color: #fff;
 }
 
 #intro{
@@ -39,4 +39,19 @@ a, u {
 	body{
 		background-size: 2000px;
 	}
+}
+
+.links {
+	text-align: center;
+}
+.links a {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+}
+.links a:hover {
+	text-decoration: none;
+}
+.links a i {
+	margin-left: 15px;
 }
